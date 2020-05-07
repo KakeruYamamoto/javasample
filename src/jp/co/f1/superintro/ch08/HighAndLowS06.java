@@ -35,7 +35,7 @@ public class HighAndLowS06 {
 		// 入力フォーム
 		Scanner sc = new Scanner(System.in);
 		System.out.print("High  or  Low ?(h/l) >");
-	    String select = sc.nextLine();
+		String select = sc.nextLine();
 		if (select.equals("h")) {
 		  System.out.println("→Highを選択しました。");
 		}else{
