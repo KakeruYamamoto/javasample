@@ -50,6 +50,23 @@ public class HighAndLowS06 {
 		System.out.println(asterisk_middle_open);
 		System.out.println(asterisk_topAndUnder);
 
+		// Highとlowの判定、そして変数resoltへの代入
+		String result;
+		if (left_card < right_card) {
+		  result = "h";
+		}else if(left_card > right_card){
+		  result = "l";
+		}else {
+		  result = select;
+		}
+
+		// 勝敗結果の条件分岐
+		if (select.equals(result)) {
+		  System.out.println("→you Win!");
+		}else {
+		  System.out.println("→you Lose...");
+		}
+
 		System.out.println(new_line + "-ゲーム終了-");
 	}
 
